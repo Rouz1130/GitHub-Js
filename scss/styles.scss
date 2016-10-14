@@ -1,15 +1,55 @@
+body {
+  background: url("http://www.wallpaperup.com/uploads/wallpapers/2014/09/25/455922/big_thumb_1dee4df1af48f1fa9e6bd50618b4fbc9.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
 
-.jumbotron {
-  // width: 100%;
-  // position:absolute;
-  // left: 0;
-  font-size: 1.5em;
-  text-align: center;
-  background-image: url("http://www.freewebheaders.com/wordpress/wp-content/gallery/global/global-franchise-green-header.jpg");
+h1 {
+  font-size: 500%;
+  font-weight: bold;
+  font-family: monospace;
+  color:#66b3ff;
+  animation-duration: 3s;
+ animation-name: slidein;
+}
+
+@keyframes slidein {
+ from {
+   margin-left: 100%;
+   width: 300%;
+ }
+
+ to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+
+ul {
+  font-size: 40px;
   color: white;
 }
 
+.person {
+  font-size: 40px;
+  color: white;
+  font-style: normal;
+  font-family: monospace;
 
-#padding {
-  padding-bottom: 140px;
+}
+
+#getName {
+  background: green;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;;
+ left:20%;
+ right:20%;
+ bottom:5%;
+ top:60%;
+ font-size: 19px;
+ text-align:inherit;
+
 }
